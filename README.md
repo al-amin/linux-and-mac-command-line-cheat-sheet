@@ -1,5 +1,30 @@
 # linux-command-line-cheat-sheet
 
+## Change password on root user and user account
+
+###### To change the root password:
+
+`sudo passwd`
+*To change your user password:*
+
+`passwd`
+*To change other users password:*
+
+`sudo passwd USERNAME`
+
+[ref: change-password-on-root-user-and-user-account](https://askubuntu.com/questions/423942/change-password-on-root-user-and-user-account)
+
+
+## HOST name change:
+
+`sudo nano /etc/hosts` - then rename 
+
+and 
+
+`hostnamectl set-hostname new-hostname`
+
+[ref : how-do-i-change-the-hostname](https://askubuntu.com/questions/87665/how-do-i-change-the-hostname-without-a-restart)
+
 
 ## ipv4 forward related permanent
 
@@ -27,13 +52,3 @@ sudo apt-get install openssh-server
 
 [ref : why-am-i-getting-a-port-22-connection-refused-error](https://askubuntu.com/questions/218344/why-am-i-getting-a-port-22-connection-refused-error)
 
-
-## HOST name change:
-
-`sudo nano /etc/hosts` - then rename 
-
-and 
-
-`hostnamectl set-hostname new-hostname`
-
-[ref : how-do-i-change-the-hostname](https://askubuntu.com/questions/87665/how-do-i-change-the-hostname-without-a-restart)
