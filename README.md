@@ -10,5 +10,8 @@ sudo /etc/init.d/procps restart
 cat /proc/sys/net/ipv4/ip_forward
 ```
 
-
-
+#### For temp on any session:
+```sh
+cat /proc/sys/net/ipv4/ip_forward
+echo 1 > /proc/sys/net/ipv4/ip_forward
+```
