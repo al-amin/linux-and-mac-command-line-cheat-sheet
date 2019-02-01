@@ -2,7 +2,7 @@
 
 ## Change password on root user and user account
 
-###### To change the root password:
+To change the root password:
 
 `sudo passwd`
 To change your user password:
