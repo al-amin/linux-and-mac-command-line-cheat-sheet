@@ -1,7 +1,7 @@
 # linux-command-line-cheat-sheet
 
 
-### ipv4 forward related permanent
+## ipv4 forward related permanent
 
 ```sh
 cat /proc/sys/net/ipv4/ip_forward
