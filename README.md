@@ -15,3 +15,5 @@ cat /proc/sys/net/ipv4/ip_forward
 cat /proc/sys/net/ipv4/ip_forward
 echo 1 > /proc/sys/net/ipv4/ip_forward
 ```
+
+[ref:](https://askubuntu.com/questions/311053/how-to-make-ip-forwarding-permanent)
