@@ -26,3 +26,16 @@ sudo apt-get install openssh-server
 ```
 
 [ref : why-am-i-getting-a-port-22-connection-refused-error](https://askubuntu.com/questions/218344/why-am-i-getting-a-port-22-connection-refused-error)
+
+
+## HOST name change:
+
+https://askubuntu.com/questions/87665/how-do-i-change-the-hostname-without-a-restart
+
+`sudo nano /etc/hosts` - then rename 
+
+and 
+
+`hostnamectl set-hostname new-hostname`
+
+[ref : how-do-i-change-the-hostname](https://askubuntu.com/questions/87665/how-do-i-change-the-hostname-without-a-restart)
