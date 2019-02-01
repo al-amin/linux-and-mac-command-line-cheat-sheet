@@ -17,3 +17,12 @@ echo 1 > /proc/sys/net/ipv4/ip_forward
 ```
 
 [ref: how-to-make-ip-forwarding-permanent](https://askubuntu.com/questions/311053/how-to-make-ip-forwarding-permanent)
+
+
+## SSH:
+```sh
+sudo apt-get update
+sudo apt-get install openssh-server
+```
+
+[ref : why-am-i-getting-a-port-22-connection-refused-error](https://askubuntu.com/questions/218344/why-am-i-getting-a-port-22-connection-refused-error)
