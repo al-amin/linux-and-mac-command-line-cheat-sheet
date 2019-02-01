@@ -30,8 +30,6 @@ sudo apt-get install openssh-server
 
 ## HOST name change:
 
-https://askubuntu.com/questions/87665/how-do-i-change-the-hostname-without-a-restart
-
 `sudo nano /etc/hosts` - then rename 
 
 and 
