@@ -5,9 +5,11 @@
 To change the root password:
 
 `sudo passwd`
+
 To change your user password:
 
 `passwd`
+
 To change other users password:
 
 `sudo passwd USERNAME`
