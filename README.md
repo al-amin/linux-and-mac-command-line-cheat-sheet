@@ -3,15 +3,12 @@
 ## Change password on root user and user account
 
 To change the root password:
-
 `sudo passwd`
 
 To change your user password:
-
 `passwd`
 
 To change other users password:
-
 `sudo passwd USERNAME`
 
 [ref: change-password-on-root-user-and-user-account](https://askubuntu.com/questions/423942/change-password-on-root-user-and-user-account)
