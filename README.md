@@ -56,6 +56,8 @@ Install your `foo.deb` file with `sudo dpkg -i foo.deb`.
 
 If there are some errors with unresolved dependencies, run `sudo apt-get install -f` or `sudo apt-get install -f --fix-missing` afterwards.
 
+[ref: how-to-install-a-deb-file-by-dpkg](https://unix.stackexchange.com/questions/159094/how-to-install-a-deb-file-by-dpkg-i-or-by-apt)
+
 ## Cheat Sheet
 - [ref: Linux command line for you and me Documentation By Kushal Das](https://media.readthedocs.org/pdf/lym/latest/lym.pdf)
 - [ref: best-linuxunix-command-cheat-sheet ](https://rumorscity.com/2014/08/16/6-best-linuxunix-command-cheat-sheet/)
