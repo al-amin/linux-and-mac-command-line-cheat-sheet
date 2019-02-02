@@ -58,6 +58,33 @@ If there are some errors with unresolved dependencies, run `sudo apt-get install
 
 [ref: how-to-install-a-deb-file-by-dpkg](https://unix.stackexchange.com/questions/159094/how-to-install-a-deb-file-by-dpkg-i-or-by-apt)
 
+## Installing a root/CA Certificate in ubuntu
+
+Given a CA certificate file `alamin.crt`, follow these steps to install it on Ubuntu:
+1.  optional] Create a directory for extra CA certificates in `/usr/share/ca-certificates`:
+  
+  `sudo mkdir /usr/share/ca-certificates/extra`
+
+2.  Copy the `CA` `.crt` file to this directory:
+  
+  `sudo cp alamin.crt /usr/share/ca-certificates/extra/alamin.crt`
+
+3.  Let Ubuntu add the `.crt` file's path relative to `/usr/share/ca-certificates` to `/etc/ca-certificates.conf`:
+
+  `sudo dpkg-reconfigure ca-certificates`
+
+- In case of a .pem file on Ubuntu, it must first be converted to a `.crt` file:
+
+  `openssl x509 -in foo.pem -inform PEM -out foo.crt`
+
+###### To do this non-interactively, run:
+      
+      `sudo update-ca-certificates`
+
+[ref: Installing a root/CA Certificate in ubuntu](https://askubuntu.com/questions/73287/how-do-i-install-a-root-certificate)
+
+
+
 ## Cheat Sheet
 - [ref: Linux command line for you and me Documentation By Kushal Das](https://media.readthedocs.org/pdf/lym/latest/lym.pdf)
 - [ref: best-linuxunix-command-cheat-sheet ](https://rumorscity.com/2014/08/16/6-best-linuxunix-command-cheat-sheet/)
