@@ -61,7 +61,7 @@ If there are some errors with unresolved dependencies, run `sudo apt-get install
 ## Installing a root/CA Certificate in ubuntu
 
 Given a CA certificate file `alamin.crt`, follow these steps to install it on Ubuntu:
-1.  optional] Create a directory for extra CA certificates in `/usr/share/ca-certificates`:
+1.  [ Optional ] Create a directory for extra CA certificates in `/usr/share/ca-certificates`:
   
   `sudo mkdir /usr/share/ca-certificates/extra`
 
