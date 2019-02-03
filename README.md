@@ -96,7 +96,7 @@ Your interface is not in promiscous mode. Use:
 - `R` is for running
 - `U` is for up
 
-
+[ref: configure-a-network-interface-into-promiscuous-mode](https://askubuntu.com/questions/430355/configure-a-network-interface-into-promiscuous-mode)
 
 
 ## Cheat Sheet
