@@ -84,6 +84,20 @@ Given a CA certificate file `alamin.crt`, follow these steps to install it on Ub
 [ref: Installing a root/CA Certificate in ubuntu](https://askubuntu.com/questions/73287/how-do-i-install-a-root-certificate)
 
 
+## Configure a network interface into promiscuous mode
+Your interface is not in promiscous mode. Use:
+`ip link set eth1 promisc on`
+`netstat -i`
+**The flag will be updated to `BMPRU`. Flag details are as follows:**
+
+- `B` flag is for broadcast
+- `M` flag is for multicast
+- `P` flag is for promisc mode
+- `R` is for running
+- `U` is for up
+
+
+
 
 ## Cheat Sheet
 - [ref: Linux command line for you and me Documentation By Kushal Das](https://media.readthedocs.org/pdf/lym/latest/lym.pdf)
