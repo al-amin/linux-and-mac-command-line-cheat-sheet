@@ -114,9 +114,13 @@ Your interface is not in promiscous mode. Use:
 
 ###### To do disable, run:
       
-      `sudo spctl --master-disable`
+```sh
+sudo spctl --master-disable
+```
 
 
 ###### To do enable, run:
-      
-      `sudo spctl --master-enable`
+
+```sh
+sudo spctl --master-enable
+```
