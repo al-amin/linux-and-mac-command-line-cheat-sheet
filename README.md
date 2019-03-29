@@ -107,3 +107,16 @@ Your interface is not in promiscous mode. Use:
 
 # Mac-command-line-cheat-sheet
 
+## How to Allow Apps from Anywhere in macOS Gatekeeper (Mojave, Sierra, High Sierra)
+- [ref: How to Allow Apps from Anywhere in macOS Gatekeeper -Mojave](http://osxdaily.com/2016/09/27/allow-apps-from-anywhere-macos-gatekeeper/)
+
+
+
+###### To do disable, run:
+      
+      `sudo spctl --master-disable`
+
+
+###### To do enable, run:
+      
+      `sudo spctl --master-enable`
