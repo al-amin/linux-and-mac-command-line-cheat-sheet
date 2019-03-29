@@ -78,8 +78,10 @@ Given a CA certificate file `alamin.crt`, follow these steps to install it on Ub
   `openssl x509 -in foo.pem -inform PEM -out foo.crt`
 
 ###### To do this non-interactively, run:
-      
-      `sudo update-ca-certificates`
+
+```sh
+sudo update-ca-certificates
+```
 
 [ref: Installing a root/CA Certificate in ubuntu](https://askubuntu.com/questions/73287/how-do-i-install-a-root-certificate)
 
