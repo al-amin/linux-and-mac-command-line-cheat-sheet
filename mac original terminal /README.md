@@ -9,7 +9,10 @@ A Mac OS Terminal profile, using a Material Design color palette. Based on [Hype
 Clone this repo:
 
 ```shell
-$ git clone git@github.com:jbw91/mac-terminal-material.git
+$ git clone https://github.com/al-amin/linux-and-mac-command-line-cheat-sheet.git
 ```
 
 Open the Mac Terminal app. Go to Terminal > Preferences > Profiles. Click on the gear at the bottom-left of the window and select "Import". Select the `Material.terminal` file from this repo and import it. Now, click on the "Material" profile and make sure to click "Default" at the bottom-left of the screen to make this the default profile that is used on startup!
+
+
+[original post](https://github.com/johnbwoodruff/mac-terminal-material)
