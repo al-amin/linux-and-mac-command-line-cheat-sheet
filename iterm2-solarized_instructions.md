@@ -105,3 +105,8 @@ Installing a patched font will mess up the integrated terminal in VS Code unless
 - for other fonts you'll need to check the font name in Font Book.
 
 You can also set the fontsize e.g.: `"terminal.integrated.fontSize": 14`
+
+
+
+# Finally followed this tutorial and customized the iTerm2
+[configuration-of-a-beautiful-efficient-terminal-and-prompt](https://medium.com/@Clovis_app/configuration-of-a-beautiful-efficient-terminal-and-prompt-on-osx-in-7-minutes-827c29391961)
