@@ -1,4 +1,6 @@
 # How to install
+[Video turorial I followed: ](https://www.youtube.com/watch?v=XSeO6nnlWHw)
+
 
 ## iTerm2
 
