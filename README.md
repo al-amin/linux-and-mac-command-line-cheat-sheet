@@ -126,3 +126,13 @@ sudo spctl --master-disable
 ```sh
 sudo spctl --master-enable
 ```
+
+###### Checking for existing SSH keys
+
+Before you generate an SSH key, you can check to see if you have any existing SSH keys.
+
+1. Open Terminal.
+Enter `ls -al ~/.ssh` to see if existing SSH keys are present:
+`$ ls -al ~/.ssh`
+# Lists the files in your `.ssh` directory, if they exist
+Check the directory listing to see if you already have a **public SSH key**.
