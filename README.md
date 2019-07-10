@@ -140,8 +140,13 @@ Check the directory listing to see if you already have a **public SSH key**.
 
 ##  What is the correct way to alias applications in OS X through bash?
 
+**TEMP**
+
 `alias tmc='/Users/alamin/work/gitLab/machine-learning/MOOC_Data_Analysis_with_Python_Summer_2019/./tmc'`
 
 NOTICE the /./ at the end,
+
+**For PERMANENT**
+`ln -s /Users/alamin/work/gitLab/machine-learning/MOOC_Data_Analysis_with_Python_Summer_2019/./tmc /usr/local/bin/tmc`
 
 [reference: configure-a-network-interface-into-promiscuous-mode](https://superuser.com/questions/386345/what-is-the-correct-way-to-alias-applications-in-os-x-through-bash)
