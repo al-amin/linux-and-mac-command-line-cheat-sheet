@@ -18,6 +18,10 @@ Now to append the input to new_file.txt by: ```cat >> new_file.txt``` Then write
 
 ### 5. Create a new directory called hackerdirectory and create a new file in that directory named hackedfile. Now copy that file to your /root directory and rename it secretfile.
 
-#### Answer: ```cd /``` , ```pwd``` , ```ls``` 
+#### Answer: 
+Cd to a Desktop by: ```cd Desktop```\
+Create a directory called hackerdirectory by:```mkdir hackerdirectory``` \
+change directory by ```cd hackerdirectory``` ,Create a new file called hackedfile by: ```touch hackedfile``` \
+Now cp that file to /root directory by: ```sudo cp hackedfile /```
 
 
