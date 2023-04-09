@@ -27,3 +27,4 @@ change directory by ```cd hackerdirectory``` ,Create a new file called hackedfil
 Now cp that file to /root directory by: ```sudo cp hackedfile /```
 To check ```cd /```, then ls ```ls```
 
+## Install snort on [kali linux](https://dev.to/ankitsahu/install-snort-on-kali-1co8)
