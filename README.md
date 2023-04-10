@@ -120,6 +120,8 @@ Your interface is not in promiscous mode. Use:
 ## Numbering the Lines
 ```nl filename``` - to see the content of a file with number
 
+## Filtering Text with grep
+```cat filename | grep some_text``` - to see the content of a file with filtered text only
 
 # Mac-command-line-cheat-sheet
 
