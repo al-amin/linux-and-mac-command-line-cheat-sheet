@@ -117,6 +117,8 @@ Your interface is not in promiscous mode. Use:
 ```tail filename``` - to see last 10 lines of the content of a file \
 ```tail -20 filename``` - to see last 20 lines of the content of a file
 
+## Numbering the Lines
+```nl filename``` - to see the content of a file with number
 
 
 # Mac-command-line-cheat-sheet
