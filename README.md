@@ -105,6 +105,18 @@ Your interface is not in promiscous mode. Use:
 - [ref: Linux command line for you and me Documentation By Kushal Das](https://media.readthedocs.org/pdf/lym/latest/lym.pdf)
 - [ref: best-linuxunix-command-cheat-sheet ](https://rumorscity.com/2014/08/16/6-best-linuxunix-command-cheat-sheet/)
 
+## cat command
+
+```cat filename``` - to see the content of a file
+
+## head command
+```head filename``` - to see first 10 lines of the content of a file
+```head -20 filename``` - to see first 20 lines of the content of a file
+
+## tail command
+```tail filename``` - to see last 10 lines of the content of a file
+```tail -20 filename``` - to see last 20 lines of the content of a file
+
 
 
 # Mac-command-line-cheat-sheet
