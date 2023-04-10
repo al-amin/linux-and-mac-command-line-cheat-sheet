@@ -1,0 +1,233 @@
+    1  sudo apt update
+    2  sudo rm -rf /var/lib/apt/lists
+    3  sudo apt update
+    4  sudo apt install spice-vdagent spice-webdavd neofetch htop git bpytop
+    5  reboot
+    6  ^[[200~./opt/bin/kafka_2.13-3.4.0/bin/kafka-topics.sh~
+    7  ./opt/bin/kafka_2.13-3.4.0/bin/kafka-topics.sh
+    8  cd /opt/kafka_2.13-3.4.0
+    9  ./opt/kafka_2.13-3.4.0/bin/kafka-topics.sh
+   10  /opt/kafka_2.13-3.4.0/bin/kafka-topics.sh
+   11  /opt/kafka_2.13-3.4.0/bin/kafka-topics.sh --zookeeper 127.0.0.1:2181
+   12  /opt/kafka_2.13-3.4.0/bin/kafka-topics.sh
+   13  ls
+   14  cd data
+   15  cd ..
+   16  ls data/zookeeper
+   17  cd data/zookeeper
+   18  ls
+   19  cd ..
+   20  cd kafka
+   21  ls
+   22  clear
+   23  cd ../..
+   24  /opt/kafka_2.13-3.4.0/bin/kafka-topics.sh --zookeeper 127.0.0.1:2181
+   25  /opt/kafka_2.13-3.4.0/bin/kafka-topics.sh
+   26  /opt/kafka_2.13-3.4.0/bin/kafka-topics.sh --zookeeper 127.0.0.1:2181 --topic first_topic --create --partitions 3 --replicate-factor 1
+   27  /opt/kafka_2.13-3.4.0/bin/kafka-topics.sh --bootstrap-server 127.0.0.1:2181 --topic first_topic --create --partitions 3 --replicate-factor 1
+   28  /opt/kafka_2.13-3.4.0/bin/kafka-topics.sh --bootstrap-server 127.0.0.1:2181 --topic first_topic --create --partitions 3 -–replication-factor 1
+   29  /opt/kafka_2.13-3.4.0/bin/kafka-topics.sh --create --bootstrap-server 127.0.0.1:2181 --replication-factor 1 --partitions 3 --topic first_topic
+   30  /opt/kafka_2.13-3.4.0/bin/kafka-topics.sh --create --bootstrap-server 0.0.0.0:2181 --replication-factor 1 --partitions 3 --topic first_topic
+   31  history
+   32  ls
+   33  cd Downloads
+   34  ls
+   35  mv kafka_2.13-3.4.0.tgz /opt
+   36  ls
+   37  tar –xvzf kafka_2.13-3.4.0.tgz
+   38  tar –tzf kafka_2.13-3.4.0.tgz
+   39  ls
+   40  tar -xvzf kafka_2.13-3.4.0.tgz .
+   41  ls
+   42  tar -xvzf kafka_2.13-3.4.0.tgz 
+   43  ls
+   44  mv /home/alamin-kali/Download/kafka_2.13-3.4.0.tgz /opt/
+   45  cd kafka_2.13-3.4.0
+   46  pwd
+   47  cd ..
+   48  mv /home/alamin-kali/Downloads/kafka_2.13-3.4.0 /opt
+   49  sudo mv /home/alamin-kali/Downloads/kafka_2.13-3.4.0 /opt
+   50  cd /opt
+   51  cd kafka_2.13-3.4.0
+   52  cd bin
+   53  ls
+   54  ./kafka-topics.sh
+   55  clear
+   56  cd ..
+   57  ls
+   58  mkdir data
+   59  cd data
+   60  mkdir zookeeper
+   61  cd ..
+   62  nano config/zookeeper.properties
+   63  ./bin/zookeeper-server-start.sh config/zookeeper.properties
+   64  nano config/zookeeper.properties
+   65  cd data/zookeeper
+   66  pwd
+   67  cd ..
+   68  nano config/zookeeper.properties
+   69  cd ..
+   70  nano config/zookeeper.properties
+   71  ./bin/zookeeper-server-start.sh config/zookeeper.properties
+   72  cd /opt/kafka_2.13-3.4.0
+   73  mkdir data/kafka
+   74  nano config/server.properties
+   75  ./bin/kafka-server-start.sh config/server.properties
+   76  nano config/server.properties
+   77  ./bin/kafka-server-start.sh config/server.properties
+   78  nano config/server.properties
+   79  sudo apt install zookeeperd
+   80  sudo apt install default-jre
+   81  telnet localhost 2181
+   82  sudo adduser kafka
+   83  sudo adduser kafka sudo
+   84  su -l kafka
+   85  poweroff
+   86  ps aus
+   87  ps aux
+   88  clear
+   89  ps aux
+   90  ps aux | grep apache2
+   91  ps aux | grep aux
+   92  ps aux | grep spice
+   93  ps aux | grep usr
+   94  ps aux | grep spice
+   95  clear
+   96  whoami
+   97  locate wordlists
+   98  ls
+   99  locate wordlists
+  100  clear
+  101  ls
+  102  cat new_file.txt
+  103  cat new_file
+  104  clear
+  105  cat > new_file.txt
+  106  cat >> new_file.txt
+  107  cat new_file.txt
+  108  clear
+  109  ls
+  110  rm new_file.txt
+  111  ls
+  112  clear
+  113  ls
+  114  cd Desktop
+  115  ls
+  116  mkdir hackerdirectory
+  117  touch hackedfile
+  118  ls
+  119  rm hackedfile
+  120  ls
+  121  clear
+  122  cd hackerdirectory
+  123  touch hackedfile
+  124  ls
+  125  mv hackedfile /
+  126  root mv hackedfile
+  127  sudo mv hackedfile
+  128  cd /
+  129  ls
+  130  cd home/alamin-kali/Desktop
+  131  ls
+  132  cd hackerdirectory
+  133  ls
+  134  cd ..
+  135  clear
+  136  ls
+  137  rm -r hackerdirectory
+  138  ls
+  139  clear
+  140  mkdir hackerdirectory
+  141  cd hackerdirectory
+  142  touch hackedfile
+  143  ls
+  144  sudo mv hackedfile /
+  145  cd /
+  146  ls
+  147  cd /home/alamin-kali/Desktop
+  148  ls
+  149  rm -r hackerdirectory
+  150  mkdir hackerdirectory
+  151  cd hackerdirectory
+  152  touch hackedfile
+  153  sudo cp hackedfile /
+  154  cd /
+  155  ls
+  156  rm hackedfile
+  157  sudo rm hackedfile
+  158  cat /etc/ | grep s
+  159  ls /etc | grep sn
+  160  apt-get install snort 
+  161  sudo apt-get install snort
+  162  mv /etc/apt/sources.list /etc/apt/sources.list.bak
+  163  sudo mv /etc/apt/sources.list /etc/apt/sources.list.bak
+  164  ls /etc/apt/
+  165  sudo apt-get update
+  166  apt-get install update
+  167  sudo apt-get install update
+  168  sudo apt update
+  169  ls
+  170  cd home/alamin-kali/Desktop
+  171  ls
+  172  sudo rm -rf /var/lib/apt/lists
+  173  sudo apt update
+  174  sudo apt-get install checkinstall
+  175  sudo nano /etc/apt/sources.list
+  176  sudo apt update
+  177  sudo apt-get update
+  178  sudo apt-get install checkinstall
+  179  find /var/lib/apt/lists -type f -exec rm {} \;
+  180  sudo nano /etc/apt/source.list
+  181  sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 3B4FE6ACC0B21F32\nsudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 871920D1991BC93C\n
+  182  sudo apt update
+  183  sudo apt install snort
+  184  sudo nano /etc/apt/source.list
+  185  sudo apt update
+  186  sudo apt install snort
+  187  sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 3B4FE6ACC0B21F32\nsudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 871920D1991BC93C\n
+  188  sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 3B4FE6ACC0B21F32
+  189  sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 871920D1991BC93C\n
+  190  sudo apt update
+  191  sudo apt install snort
+  192  sudo nano /etc/apt/source.list
+  193  sudo apt update
+  194  sudo apt-get install checkinstall
+  195  sudo apt install snort
+  196  sudo apt-get install snort
+  197  sudo nano /etc/apt/source.list
+  198  sudo apt-get update
+  199  sudo apt-get install snort
+  200  sudo cp /home/alamin-kali/Downloads/sources.list /etc/apt
+  201  cd /etc/apt
+  202  nano sources.list
+  203  sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 3B4FE6ACC0B21F32
+  204  sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 871920D1991BC93C
+  205  sudo apt-get update
+  206  sudo apt install snort
+  207  sudo apt-get install snort
+  208  sudo apt update
+  209  sudo apt install snort
+  210  apt-get install snort
+  211  sudo apt-get install snort
+  212  cat /etc/apt/source.list
+  213  ls
+  214  cd /
+  215  cd ~
+  216  ls
+  217  cd Downloads
+  218  ls
+  219  cat sources.list
+  220  ls
+  221  cp sources.list /etc/apt/source.list
+  222  sudo cp sources.list /etc/apt/source.list
+  223  cat /etc/apt/source.list
+  224  apt update
+  225  sudo apt update
+  226  sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 3B4FE6ACC0B21F32
+  227  sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 871920D1991BC93C
+  228  sudo apt update
+  229  sudo apt install snort
+  230  cd ..
+  231  cd Desktop
+  232  cat history > history.txt
+  233  history
