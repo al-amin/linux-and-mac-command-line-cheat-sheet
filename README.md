@@ -110,11 +110,11 @@ Your interface is not in promiscous mode. Use:
 ```cat filename``` - to see the content of a file
 
 ## head command
-```head filename``` - to see first 10 lines of the content of a file
+```head filename``` - to see first 10 lines of the content of a file \
 ```head -20 filename``` - to see first 20 lines of the content of a file
 
 ## tail command
-```tail filename``` - to see last 10 lines of the content of a file
+```tail filename``` - to see last 10 lines of the content of a file \
 ```tail -20 filename``` - to see last 20 lines of the content of a file
 
 
