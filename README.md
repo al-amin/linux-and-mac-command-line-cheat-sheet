@@ -123,6 +123,20 @@ Your interface is not in promiscous mode. Use:
 ## Filtering Text with grep
 ```cat filename | grep some_text``` - to see the content of a file with filtered text only
 
+## more command
+```more filename``` - to see the content of a file with scrolling option
+
+## less command
+```less filename``` - to see the content of a file with scrolling option
+```/keyword``` - you can search a keyword inside the file, ```n``` press n to search next occurance
+
+## sed command
+```sed s/mysql/MYSQL/2 /etc/snort/snort.conf > snort2.conf``` - to find and replace, The s command performs the substitution: you first give the term you are searching for (mysql) and then the term you want to replace it with (MySQL), separated by a slash (/). The g flag tells Linux that you want the replacement performed globally. Then the result is saved to a new file named snort2.conf.
+
+
+==================================================================================================================================================
+
+
 # Mac-command-line-cheat-sheet
 
 ## How to Allow Apps from Anywhere in macOS Gatekeeper (Mojave, Sierra, High Sierra)
