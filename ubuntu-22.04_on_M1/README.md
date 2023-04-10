@@ -8,3 +8,5 @@ Installed using UTM, tuto followed: https://www.youtube.com/watch?v=O19mv1pe76M
 # First run the followings commands
 
 ```sudo apt update && sudo apt upgrade -y```
+
+```sudo apt install spice-vdagent spice-webdavd -y``` - to enable support directory share between host and guest os
