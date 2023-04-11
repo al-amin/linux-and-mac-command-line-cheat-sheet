@@ -1,8 +1,8 @@
 Book from : [this link](https://kea.nu/files/textbooks/humblesec/linuxbasicsforhackers.pdf)
 
-================================================================================================================================
+=======================================================================================================
 # Chapter -1 
-================================================================================================================================
+=======================================================================================================
 
 ### 1. Use the ls command from the root (/) directory to explore the directory structure of Linux. Move to each of the directories with the cd command and run pwd to verify where you are in the directory structure.
 
@@ -31,9 +31,9 @@ To check ```cd /```, then ls ```ls```
 
 ## Install snort on [kali linux](https://dev.to/ankitsahu/install-snort-on-kali-1co8) - does not work, later installed ubuntu ;)
 
-================================================================================================================================
+=======================================================================================================
 # Chapter -2
-================================================================================================================================
+=======================================================================================================
 ### 1. Navigate to /usr/share/metasploit-framework/data/wordlists. This is a directory of multiple wordlists that can be used to brute force passwords in various password-protected devices using Metasploit, the most popular pentesting and hacking framework.
 #### Answer: ```lcd /usr/share/metasploit-framework/data/wordlists```
 ### 2. Use the cat command to view the contents of the file password.lst.
